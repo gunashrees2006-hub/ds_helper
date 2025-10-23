@@ -26,10 +26,3 @@ def visualize(df):
             plt.axis("off")
             plt.title(f"Text Column: {col}")
             plt.show()
-data = {
-    "Age":[23,45,21,34,42,55],
-    "Gender":["M","F","F","M","M","F"],
-    "Remarks":["good","excellent","bad","average","good","bad"]
-}
-df = pd.DataFrame(data)
-visualize(df)
